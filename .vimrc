@@ -9,11 +9,10 @@ set autoindent                    " automatically indent lines and try to do it 
 set smartindent
 set backspace=indent,eol,start    " backspace behaves 'normally'
 
-" set softtabstop=2
 set smartindent
 set shiftwidth=4                  " [2]
 set tabstop=4                     " tab is 4 spaces [2]
-set noexpandtab                   " use tabs
+set expandtab                   " use tabs
 
 set textwidth=0
 set nolinebreak
@@ -27,11 +26,9 @@ set wrapscan                      " Set the search scan to wrap around the file
 
 set laststatus=2                  " always display a status line
 
+set relativenumber
 set number                        " show line numbers
 set numberwidth=5
 set ruler                         " display coordinates in status bar
 set showmode                      " display the current mode in the status bar
 set title                         " show file in titlebar
-set scrolloff=3                   " When the page starts to scroll, keep the cursor 3 lines from top/bottom
-set cmdheight=2                   " Make command line two lines high
-set relativenumber
