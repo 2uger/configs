@@ -12,7 +12,7 @@ set backspace=indent,eol,start    " backspace behaves 'normally'
 set smartindent
 set shiftwidth=4                  " [2]
 set tabstop=4                     " tab is 4 spaces [2]
-set expandtab                   " use tabs
+set expandtab                     " use spaces
 
 set textwidth=0
 set nolinebreak
